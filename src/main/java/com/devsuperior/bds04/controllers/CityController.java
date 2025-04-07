@@ -34,6 +34,7 @@ public class CityController {
 		return ResponseEntity.created(uri).body(dto);
 	}
 	
+	
 	@GetMapping
 	public ResponseEntity<List<CityDTO>> findAll() {
 		
